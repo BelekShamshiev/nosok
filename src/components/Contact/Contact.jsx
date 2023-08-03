@@ -7,7 +7,7 @@ const Contact = () => {
       <div className={s.title}>
         <div className={s.title_c}>
           <div className={s.insta}>
-            <a href="https://www.instagram.com/elegant_socks/">
+            <a href="https://www.instagram.com/elegant_socks_nosoc/">
               <Image src="/i.png" alt="insta" width={70} height={70}></Image>
             </a>
           </div>
@@ -17,7 +17,7 @@ const Contact = () => {
             </a>
           </div>
           <div className={s.telegram}>
-            <a href="https://t.me/belekshamshiev">
+            <a href="https://t.me/+996779624653">
               <Image
                 src="/tel.jpg"
                 alt="telegram"
@@ -27,7 +27,7 @@ const Contact = () => {
             </a>
           </div>
           <div className={s.whatsapp}>
-            <a href="https://api.whatsapp.com/send/?phone=5560402020&text&type=phone_number&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=778624653&text&type=phone_number&app_absent=0">
               <Image
                 src="/i.webp"
                 alt="whatsapp"
