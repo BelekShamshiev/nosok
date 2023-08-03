@@ -1,0 +1,359 @@
+  .container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto !important;
+    height: 760px;
+    background-image: url(../../../public/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    padding-top: 250px;
+    z-index: 0;
+
+    .title {
+      width: 90%;
+      margin: 0 auto;
+
+      .titile_aur {
+        margin-top: 50px;
+        justify-content: center;
+        max-width: 1500px;
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.598);
+
+        .titile_aur_title {
+          .titile_aur_title_tel {
+            display: flex;
+            flex-direction: column;
+
+            p {
+              color: #FFF;
+              font-size: 20px;
+            }
+
+            a {
+              color: #FFF;
+            }
+          }
+
+          padding-top: 1px;
+          width: 90%;
+          margin: 0 auto;
+
+          .titile_aur_title_desc {
+            h1 {
+              color: #ffffff;
+              font-family: Inter;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          .titile_aur_title_more {
+            p {
+              color: #ffffff;
+              font-family: Inter;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+      }
+
+      .title_kd {
+        margin-top: 170px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .title_hero a {
+        color: #FFF;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .title_hero p {
+        color: #FFF;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  @media(max-width:1197px) {
+    .titile_aur {
+      height: 250px !important;
+
+      .titile_aur_title {
+        .titile_aur_title_desc {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  @media(max-width:1100px) {
+    .title_hero a {
+      font-size: 55px !important;
+    }
+  }
+
+  @media(max-width:1145px) {
+    .title_hero {
+      a {
+        font-size: 45px !important;
+      }
+
+      p {
+        font-size: 18px !important;
+      }
+    }
+
+    .titile_aur {
+      height: 200px !important;
+
+      .titile_aur_title_more {
+        p {
+          font-size: 12px !important;
+        }
+
+      }
+
+      .titile_aur_title_tel {
+        p {
+          font-size: 15px !important;
+        }
+
+        a {
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+
+  @media(max-width:996px) {
+    .title_kd {
+      margin-top: -0px !important;
+    }
+  }
+
+  @media(max-width:919px) {
+    .titile_aur {
+      margin-top: -10px !important;
+    }
+  }
+
+  @media(max-width:851px) {
+    .title {
+      display: flex;
+      justify-content: space-between;
+
+      .titile_aur {
+        width: 53% !important;
+
+        .titile_aur_title_desc {
+          h1 {
+            font-size: 20px;
+          }
+
+
+
+        }
+      }
+    }
+  }
+
+  @media(max-width:785px) {
+    .title_hero {
+      a {
+
+
+        margin-top: 0px;
+      }
+    }
+  }
+
+  @media(max-width:769px) {
+    .container {
+      padding-top: 200px !important;
+    }
+
+    .title_hero {
+      a {
+        font-size: 40px !important;
+      }
+
+      p {
+        font-size: 15px !important;
+      }
+    }
+
+    .title_kd {
+      margin-top: 10px !important;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+
+  @media(max-width:666px) {
+    .container {
+      height: 500px !important;
+    }
+
+    .title_hero {
+      margin-top: 30px !important;
+
+      a {
+        font-size: 30px !important;
+      }
+    }
+
+    .titile_aur {
+      height: 180px !important;
+    }
+  }
+
+  @media(max-width:619px) {
+    .title_hero {
+      h1 {
+        font-size: 30px !important;
+      }
+
+      p {
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  @media(max-width:591px) {
+    .title_hero {
+      margin-top: -40px;
+    }
+  }
+
+  @media(max-width:553px) {
+    .titile_aur {
+      height: 160px !important;
+
+      .titile_aur_title {
+        .titile_aur_title_tel {
+
+
+          a {
+            font-size: 8px !important;
+          }
+
+          .titile_aur_title_desc {
+            h1 {
+              font-size: 14px !important;
+            }
+
+            .titile_aur_title_more {
+              p {
+                font-size: 8px !important;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media(max-width:528px) {
+    .title_hero {
+      a {
+        font-size: 22px !important;
+      }
+    }
+
+    .titile_aur {
+      height: 140px !important;
+      .titile_aur_title_desc{
+      }
+      .titile_aur_title_more{
+        p{
+          font-size: 8px !important;
+        }
+      }
+      .titile_aur_title_tel{
+        p{
+          font-size: 10px !important  ;
+        }
+      }
+    }
+  }
+  @media(max-width:497px){
+    .title_hero{
+      margin-top: -30px !important;
+    }
+    .titile_aur{
+      margin-top: -50px !important; 
+      border-radius: 10px;
+    }
+  }
+  @media(max-width:438px){
+    .titile_aur{
+      height: 125px !important;
+    }
+    .titile_aur_title_more{
+      p{
+        font-size: 6px !important;
+      }
+    }
+    .titile_aur_title_tel{
+      p{
+        font-size: 8px !important;
+      }
+    }
+  }
+  @media(max-width:413px){
+    .container{
+      height: 400px !important;
+    }
+    .titile_aur_title_desc {
+      h1{
+        font-size: 15px !important;
+      }
+    }
+    .titile_aur{
+      margin-top: -65px !important;
+    }
+  }
+  @media(max-width:392px){
+    .titile_aur{
+      height: 110px !important;
+    }
+      .titile_aur_title_desc{
+        h1{
+          font-size: 12px !important;
+        }
+      }
+      .titile_aur_title_more{
+        p{
+          font-size: 6px !important;
+        }
+      }
+  }
+  @media(max-width:367px){
+    .title_hero{
+      a{
+        font-size: 18px !important  ;
+      }
+      p{
+        font-size: 10px !important;
+      }
+    }
+
+  }

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Manrope:wght@200;600&family=Poppins:wght@200&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 18px;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+  
+img {
+  max-width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

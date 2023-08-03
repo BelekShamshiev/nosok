@@ -1,0 +1,40 @@
+.contact {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+
+    .title {
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+
+        .title_c {
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                border-radius: 200px;
+                transition: transform 1s ease-in-out;
+                filter: grayscale(100%);
+                cursor: pointer;
+            }
+
+            img:hover {
+                filter: brightness(100%);
+            }
+        }
+    }
+}
+@media(max-width:413px){
+    .title_c{
+        img{
+            width: 50px !important;
+            height: 50px !important;
+        }
+    }
+}

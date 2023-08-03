@@ -1,0 +1,172 @@
+.for {
+    max-width: 1500px;
+    width: 100%;
+    margin-top: 50px;
+    margin: 0 auto;
+    .for_title {
+        width: 90%;
+        margin: 0 auto;
+
+        .for_title_photo {
+            display: flex;
+            justify-content: space-between;
+
+            .for_title_photo_second img {
+                border-radius: 110px 110px 0px 0px;
+            }
+        }
+
+        .for_title_head {
+            h1 {
+                text-align: center;
+                color: #000;
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .for_title_desc {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .for_title_desc_first {
+            width: 300px;
+        }
+
+        .for_title_desc_first_head {
+            text-align: center;
+
+            h1 {
+                color: #000;
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .for_title_desc_first_desc {
+            text-align: start;
+        }
+
+        .for_title_desc_second {
+            width: 300px;
+        }
+
+        .for_title_desc_second_head {
+            text-align: center;
+
+            h1 {
+                color: #000;
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .for_title_desc_second_desc {
+            text-align: start;
+        }
+
+        .for_title_desc_three {
+            width: 300px;
+        }
+
+        .for_title_desc_three_head {
+            h1 {
+                white-space: nowrap;
+                color: #000;
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            text-align: center;
+        }
+
+        .for_title_desc_three_desc {
+            align-items: center;
+            text-align: end;
+        }
+    }
+}
+
+@media(max-width:1125px) {
+    .for_title img {
+        width: 280px;
+        height: 180px;
+    }
+}
+
+@media(max-width:1075px) {
+    .for_title_desc h1 {
+        font-size: 35px !important;
+    }
+}
+
+@media(max-width:1030px) {
+    .for_title_desc_first {
+        width: 280px !important;
+    }
+
+    .for_title_desc_second {
+        width: 280px !important;
+    }
+
+    .for_title_desc_three {
+        width: 280px !important;
+    }
+
+    .for_title_desc p {
+        font-size: 12px !important;
+    }
+}
+
+@media(max-width:955px) {
+    .for_title_desc {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        gap: 20px !important;
+    }
+    .for_title_desc img{
+        width: 400px !important;
+        height: 300px !important;
+
+    }
+}
+@media(max-width:413px){
+    .for_title_desc_first {
+        width: 410px !important;
+    }
+
+    .for_title_desc_second {
+        width: 410px !important;
+    }
+
+    .for_title_desc_three {
+        width: 410px !important;
+        .for_title_desc_three_desc{
+            text-align: start !important;
+        }
+    }
+    .for_title_head{
+        h1{
+            font-size: 30px !important;
+        }
+    }
+    .for_title_title{
+        align-items: center !important;
+        text-align: center !important;
+    }
+}

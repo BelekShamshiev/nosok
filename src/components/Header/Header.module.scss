@@ -1,0 +1,61 @@
+/* components/Header.module.scss */
+
+.header {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1500px;
+    z-index: 200;
+    width: 100%;
+  
+    .header_title {
+      width: 90%;
+      margin: 0 auto;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .header_title a {
+      color: rgb(255, 255, 255);
+    }
+  }
+  
+  .scrolled {
+    background-color: #0000; /* Здесь укажите нужный вам цвет фона при прокрутке */
+  }
+  
+  @media (max-width: 768px) {
+    .header_title a {
+      font-size: 15px;
+    }
+  
+    .header_title img {
+      width: 200px;
+      height: 55px;
+    }
+  }
+  
+  @media (max-width: 591px) {
+    .header_title a {
+      font-size: 12px !important;
+    }
+  
+    .header_title img {
+      width: 130px;
+    }
+  }
+  
+  @media(max-width:413px){
+    .header_title{
+      a{
+        font-size: 10px !important;
+      }
+      img{
+        width: 110px !important;
+        height: 30px !important;
+      }
+    }
+  }
