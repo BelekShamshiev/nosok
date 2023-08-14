@@ -10,7 +10,7 @@ import React from 'react';
 
 const index = () => {
   return (
-    <div>
+    <>
       <Header/>
       <Hero/>
       <Project/>
@@ -19,7 +19,7 @@ const index = () => {
       <About/>
       <Card/>
       <Contact/>
-    </div>
+    </>
   );
 };
 
