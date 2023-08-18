@@ -6,32 +6,16 @@ import For from '@/components/For/For';
 import Header from '@/components/Header/Header';
 import Hero from '@/components/Hero/Hero';
 import Project from '@/components/Project/Project';
-import Head from 'next/head';
 import React from 'react';
+import SEO from '@/components/SEO/SEO';
 
 export default function Home() {
+  const pageTitle = "Elegant Socks - Текстильная фабрика";
+  const pageDescription = "Производство высококачественных носков от текстильной фабрики Elegant Socks.";
+  const pageImage = "ссылка на изображение вашего логотипа или продукции"; // Замените на фактическую ссылку на изображение
   return (
     <>
-      <Head>
-        <title>Elegant Socks</title>
-        <meta name="description" content="nosok" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Elegant Socks" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:description"
-          content="
-          Строительство
-          Ремонт и отделка
-          Архитектура и проектирование
-          Новостройки
-          Коммерческая недвижимость
-          Жилая недвижимость
-          Промышленное строительство
-          Инженерные сети и коммуникации."
-        />
-      </Head >
-      <main>
+     <SEO title={pageTitle} description={pageDescription} image={pageImage} />
         <Header />
         <Hero />
         <Project />
@@ -40,7 +24,6 @@ export default function Home() {
         <About />
         <Card />
         <Contact />
-      </main>
     </>
   )
 }
