@@ -1,40 +1,99 @@
-.contact {
-    max-width: 1500px;
+.container {
+    position: relative;
+    max-width: 1440px;
     width: 100%;
-    margin: 0 auto;
-    height: 150px;
-    align-items: center;
-    text-align: center;
+    margin: 0 auto !important;
+    // padding-top: 100px;
+    .contact {
+        .social_media{
+            padding-top: 0px;
+            height: 100px;
+            .social_media_title{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+    
+                img {
+                    border-radius: 200px;
+                    transition: transform 1s ease-in-out;
+                    cursor: pointer;
+                }
 
-    .title {
-        width: 90%;
-        margin: 0 auto;
-        align-items: center;
-        text-align: center;
-
-        .title_c {
-            margin-top: 100px;
-            display: flex;
-            justify-content: space-between;
-
-            img {
-                border-radius: 200px;
-                transition: transform 1s ease-in-out;
-                filter: grayscale(100%);
-                cursor: pointer;
-            }
-
-            img:hover {
-                filter: brightness(100%);
             }
         }
-    }
-}
-@media(max-width:423px){
-    .title_c{
-        img{
-            width: 50px !important;
-            height: 50px !important;
+        .contact_title_desc{
+            border: solid 1px black;
+            border-radius: 5px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            a{
+                font-size: 12px;
+            }
+            p{
+                font-size: 12px;
+            }
+            img{
+                width: 200px;
+                height: 80px;
+            }
+            h1{
+                font-size: 20px;
+            }
+        }
+        .contact_title {
+            h1 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        width: 70%;
+        margin: 0 auto;
+
+        .contact_map {
+            padding-top: 0px;
+            .card {
+                max-width: 1440px;
+                margin: 0 auto;
+                width: 100%;
+
+                .title {
+                    width: 100%;
+                    margin: 0 auto;
+
+                    .map {
+                        iframe {
+                            width: 100%;
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width:740px){
+               .social_media_title{
+                .insta{
+                    a{
+                    img{
+                        width: 50px !important;
+                        height: 50px !important;
+                    }}
+                }
+               } 
+            }
+            @media(max-width:423px) {
+                .map {
+                    iframe {
+                        height: 200px !important;
+                    }
+                }
+            }
         }
     }
 }

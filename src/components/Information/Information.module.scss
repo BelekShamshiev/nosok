@@ -1,0 +1,159 @@
+.container {
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto !important;
+    padding-top: 50px;
+    .information {
+        width: 90%;
+        margin: 0 auto;
+
+        .information_basik {
+            padding-top: 100px;
+            margin: 0 auto;
+            width: 75%;
+            display: grid;
+            grid-template-columns: 3fr 3fr 1fr;
+
+            .information_basik_shirt {
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                width: 200px;
+
+                .information_basik_shirt_title {
+                    text-align: center;
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                .information_basik_shirt_img {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+
+        .information_title {
+            h1 {
+                color: #086241;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+    }
+}
+@media(max-width:1010px){
+    .information_title{
+        h1{
+            font-size: 25px !important;
+        }
+    }
+    .information_basik{
+        .information_basik_shirt{
+            .information_basik_shirt_title{
+                p{
+                    font-size: 14px !important;
+                }
+            }
+            .information_basik_shirt_img{
+                img{
+                    width: 90px !important;
+                    height: 90px !important;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:886px){
+    .information_title{
+        h1{
+            font-size: 20px !important;
+        }
+    }
+    .information_basik{
+        display: flex;
+        justify-content: space-between;
+        grid-template-columns: 4fr 2fr !important;
+        
+    }
+}
+@media(max-width:600px){
+    .information_basik{
+        padding-top: 50px !important;
+        .information_basik_shirt{
+            width: 150px !important;
+            .information_basik_shirt_img{
+                img{
+                    width: 70px !important;
+                    height: 70px !important;
+            }
+        }
+        .information_basik_shirt_title{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 12px !important;
+            }
+        }
+    }
+}
+}
+
+@media(max-width:467px){
+    .information_title{
+        h1{
+            font-size: 25px !important;
+        }
+    }    
+    .information_basik{
+        display: flex !important;
+        flex-direction: column !important;
+        .information_basik_shirt{
+            width: auto !important;
+            .information_basik_shirt_title{
+                p{
+                    font-size: 20px !important;
+                }
+            }
+            .information_basik_shirt_img{
+                img{
+                width: 180px !important;
+                height: 180px !important; 
+            }}
+        }
+    }
+}
+@media(max-width:420px){
+    .information_title{
+        h1{
+            font-size: 20px !important;
+        }
+    }
+    .information_basik_shirt_title{
+        p{
+            font-size: 15px !important;
+        }
+    }
+}
+@media(max-width:377px){
+    .information_basik_shirt_title{
+        p{
+            font-size:12px !important ;
+        }
+    }
+}

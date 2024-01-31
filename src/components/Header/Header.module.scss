@@ -1,60 +1,71 @@
-/* components/Header.module.scss */
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 .header {
-    position: absolute;
-    z-index: 1;
-    margin: 0 auto;
-    margin-top: 50px;
-    z-index: 200;
+  width: 100%;
+  // background: transparent;
+  // position: fixed;
+  position: absolute;
+  height: 90px;
+  padding: 0 4% 0 4%;
+  transition: 0.3s;
+  z-index: 4;
+  .header_block {
     width: 100%;
-  
-    .header_title {
-      width: 90%;
-      margin: 0 auto;
-      display: flex !important;
-      justify-content: space-between !important;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .header_title a {
-      color: rgb(255, 255, 255);
-    }
-  }
-  
-  .scrolled {
-    background-color: #0000; /* Здесь укажите нужный вам цвет фона при прокрутке */
-  }
-  
-  @media (max-width: 768px) {
-    .header_title a {
-      font-size: 15px;
-    }
-  
-    .header_title img {
-      width: 200px;
-      height: 55px;
-    }
-  }
-  
-  @media (max-width: 591px) {
-    .header_title a {
-      font-size: 12px !important;
-    }
-  
-    .header_title img {
-      width: 130px;
-    }
-  }
-  
-  @media(max-width:423px){
-    .header_title{
-      a{
-        font-size: 10px !important;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    margin-bottom: 220px;
+    .header_block__nav {
+      position: relative;
+      width: 830px;
+      display: flex;
+      justify-content: space-between;
+      z-index: 5;
+      a {
+        
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
       }
-      img{
-        width: 110px !important;
-        height: 30px !important;
+      a::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #ffffff;
+        transition: width 0.3s;
+      }
+      a:hover::after {
+        width: 100%;
+        transition: width 0.5s;
       }
     }
   }
+}
+
+.burger_menu {
+  position: relative;
+  display: none;
+  z-index: 1000;
+}
+
+.scrolled {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 950px) {
+  .header_block__nav{
+    display: none !important;
+  }
+  .burger_menu{
+    display: block;
+  }
+}

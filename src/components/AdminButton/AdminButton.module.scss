@@ -1,0 +1,10 @@
+.admin_button {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .admin_button {
+    display: flex;
+    justify-content: center;
+  }
+}

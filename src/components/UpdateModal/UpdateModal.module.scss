@@ -1,0 +1,58 @@
+.application_modal {
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    // line-height: 4rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #09a56d;
+  }
+  textarea {
+    height: 111px !important;
+    color: #000000;
+    font-size: 15px;
+    // line-height: 2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    max-width: 488px;
+    border: 2px solid #09a56d;
+  }
+  input {
+    max-width: 488px;
+    margin-top: 10px;
+    border: 2px solid #09a56d;
+  }
+	input::placeholder{
+		color: #3e3131;
+	}
+	textarea::placeholder{
+		color: #3e3131;
+	}
+  button {
+    width: 300px;
+    height: 47px;
+    cursor: pointer;
+    border: none;
+    background: #09a56d;
+    color: #ffffff;
+    transition: 0.3s;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  button:hover {
+    color: #09a56d;
+    border: 1px solid #09a56d;
+    background: none;
+    transform: scale(1.01);
+  }
+}

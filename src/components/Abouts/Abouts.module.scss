@@ -1,0 +1,112 @@
+.about {
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 100px;
+
+    .about_title {
+        width: 90%;
+        margin: 0 auto;
+
+        .title_foure {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                margin-top: 20px;
+                border-radius: 10px;
+                box-shadow: 12px 12px 12px 0px rgba(0, 0, 0, 0.25);
+
+
+            }
+
+            p {
+                width: 450px;
+                text-align: start;
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .title_three {
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                border-radius: 10px;
+                box-shadow: 12px 12px 12px 0px rgba(0, 0, 0, 0.25);
+            }
+
+            p {
+                margin-top: 100px;
+                width: 450px;
+                text-align: start;
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .title_second {
+            padding-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                text-align: start;
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                width: 600px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .title_first {
+            padding-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                border-radius: 10px;
+                box-shadow: 12px 12px 12px 0px rgba(0, 0, 0, 0.25);
+
+            }
+
+            p {
+                text-align: start;
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                width: 500px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .about_title_head {
+            text-align: center;
+
+            h1 {
+                text-align: center;
+                color: #000;
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+    }
+}

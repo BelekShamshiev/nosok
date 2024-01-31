@@ -1,0 +1,21 @@
+.admin_section {
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+		
+    input {
+      // width: 100%;
+      height: 40px;
+      border-radius: 10px;
+    }
+  }
+}
