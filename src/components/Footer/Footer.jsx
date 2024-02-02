@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
               <div className={s.footer_one_email}>
                 <img src="/email.jpg" alt="email" />
-                <p>zamirbekov.belek.sh@gmail.com</p>
+                <p>Shukur100_81@mail.ru</p>
               </div>
             </div>
             <div className={s.footer_two}>
