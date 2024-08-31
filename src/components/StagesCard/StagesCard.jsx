@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './StagesCard.module.scss'
-import Image from 'next/image'
 
 const StagesCard = ({stage}) => {
 	return (
@@ -9,7 +8,7 @@ const StagesCard = ({stage}) => {
 				<h4><span>{stage.number}</span> {stage.name}</h4>
 				<p>{stage.description}</p>
 			</div>
-			<Image src={stage.img} alt='img' width={550} height={333} />
+			<img src={stage.img} alt='img' width={550} height={333} />
 		</div>
 	);
 };

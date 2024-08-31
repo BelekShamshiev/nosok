@@ -1,0 +1,150 @@
+.container {
+    max-width: 1600px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 100px;
+  }
+  .swiper-pagination {
+    background-color: #f1f1f1;
+  }
+  
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #ff0000;
+  }
+  
+  .build_title > h1 {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    display: flex;
+    justify-content: center;
+    color: #e4b95b;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  .build_title > p {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+  }
+  .swiper {
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+  }
+  .swiper_img {
+    border-radius: 25px;
+    cursor: pointer;
+    width: 350px;
+    transition: transform 0.5s ease-in-out;
+  }
+  .swiper_img:hover {
+    filter: brightness(90%);
+    transform: scale(0.96);
+  }
+  .swiper-slide-prev .swiper_img,
+  .swiper-slide-next .swiper_img {
+    transition: transform 0.3s ease-in-out;
+  }
+  .wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .swiper_title {
+    line-height: 40px;
+    font-size: 18px;
+    margin-right: 150px;
+  }
+  
+  .swiper_btn button {
+    background-color: transparent; /* Зеленый цвет фона кнопки */
+    border: none; /* Удаление границ кнопки */
+    color: white; /* Белый цвет текста кнопки */
+    text-align: center; /* Центрирование текста кнопки */
+    text-decoration: none; /* Удаление подчеркивания текста кнопки */
+    display: inline-block; /* Отображение кнопки как блочный элемент */
+    font-size: 20px; /* Размер шрифта кнопки */
+    cursor: pointer;
+    color: black;
+    height: 35px;
+    margin-top: 10px;
+    transition: all 0.25s;
+    width: 130px;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 1px black;
+  }
+  .swiper_btn button:hover {
+    background-color: #e4b95b;
+    color: white;
+  }
+  
+  @media (max-width: 1024px) {
+    .swiper_img {
+      width: 200px;
+    }
+    .swiper_btn button {
+      margin-left: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .swiper {
+      height: 325px;
+    }
+    .swiper_img {
+      width: 200px;
+    }
+    .swiper_btn button {
+      display: none;
+    }
+  }
+  @media (max-width: 426px) {
+    .container {
+      height: 150px !important;
+    //   margin-top: 600px;
+    }
+    .swiper {
+      height: 200px;
+    }
+    .swiper_img {
+      width: 150px;
+    }
+    .build_title > h1 {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 376px) {
+    .container {
+      height: 450px;
+      margin-top: -0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .container {
+      width: 320px;
+      margin-top: 200px;
+    }
+    .build_title > p {
+      margin-top: -110px !important;
+      display: none;
+    }
+    .swiper {
+      height: 170px;
+      margin-top: -100px;
+    }
+    .swiper_img {
+      width: 130px;
+      height: 130px;
+    }
+    .build_title > h1 {
+      font-size: 25px;
+      margin-top: -50px !important;
+      z-index: -1;
+      display: none;
+    }
+  }

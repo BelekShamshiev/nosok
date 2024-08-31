@@ -1,41 +1,89 @@
 .about {
-    max-width: 1440px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro, .history, .team, .testimonials {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #093c09;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .teamMembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .member {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .member img {
     width: 100%;
-    margin: 0 auto !important;
-    padding-top: 100px;
-    .about_us{
-        padding-top: 100px !important;
-        width: 63%;
-        margin: 0 auto;
-        h1{
-            font-size: 22px;
-        }
-    }
-    .about_title {
-        .about_title_line {
-            width: 70%;
-            margin: 0 auto;
-            border-top: 2px solid;
-        }
-        .about_title_description {
-            width: 50%;
-            margin: 0 auto;
-            text-align: center;
-            color: #6B6B6B;
-            h2 {
-                font-size: 20px;
-            }
-            p {
-                color: #6B6B6B;
-                font-size: 15px;
-            }
-        }
-        width: 90%;
-        margin: 0 auto;
-        h1 {
-            font-size: 30px;
-            text-align: center;
-            color: #6B6B6B;
-        }
-    }
-}
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .memberInfo {
+    text-align: center;
+  }
+  
+  .memberName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .memberRole {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .testimonials {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .testimonial p:last-child {
+    text-align: right;
+    font-size: 16px;
+    color: #666;
+  }
+  

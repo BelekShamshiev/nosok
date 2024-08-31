@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Stages.module.scss'
 import StagesCard from '../StagesCard/StagesCard';
-import { stages } from '../../constans/stages'
+import { stages } from '../constans/stages'
 
 const Stages = () => {
 
